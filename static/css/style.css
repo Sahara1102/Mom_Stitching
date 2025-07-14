@@ -1,0 +1,130 @@
+/* Base Reset and Body Styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #e1e1e1);
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://www.example.com/your-fabric-texture.jpg'); /* Optional fabric-like background */
+    background-size: cover;
+}
+
+/* Header Styling */
+header {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+    background-image: linear-gradient(45deg, #8e44ad, #ec407a); /* Stylish gradient */
+    color: #fff;
+    font-family: 'Georgia', serif; /* Elegant font for the header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: color 0.2s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #e74c3c;
+    transform: scale(1.1);
+}
+
+/* Services Section */
+.services-container {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Adjust height to your preference */
+    background: url('https://www.example.com/your-tailoring-image.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-text {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6); /* Slight dark background behind text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.services-text h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.services-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Gallery Section Styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 300px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Images */
+.gallery img:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #fff;
+    color: #7f8c8d;
+    border-top: 2px solid #ddd;
+    font-size: 1rem;
+    font-family: 'Georgia', serif;
+    letter-spacing: 0.5px;
+}

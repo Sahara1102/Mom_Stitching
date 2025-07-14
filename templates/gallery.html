@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Mom's Stitching</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Mom's Stitching Gallery</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <img src="{{ url_for('static', filename='images/dress1.jpg') }}" alt="Stitched Clothes 1">
+        <img src="{{ url_for('static', filename='images/dress2.jpg') }}" alt="Stitched Clothes 2">
+        <!-- Add more images as needed -->
+    </section>
+
+    <footer>
+        <p>Hosmane Jail Road Shivamogga</p>
+        <p>&copy; 2025 Mom's Stitching. All rights reserved.</p>
+    </footer>
+</body>
+</html>
